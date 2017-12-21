@@ -19,9 +19,8 @@
   "license": "MIT",
   "homepage": "http://art404.com",
   "peerDependencies": {
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
-    "prop-types": "^15.5.8"
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
   },
   "devDependencies": {
     "autoprefixer-core": "^5.1.11",
@@ -34,8 +33,8 @@
     "node-libs-browser": "^0.5.0",
     "node-sass": "^3.2.0",
     "prop-types": "^15.5.8",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-hot-loader": "~1.3.0",
     "sass-loader": "^2.0.1",
     "style-loader": "^0.12.3",
@@ -45,8 +44,9 @@
   "dependencies": {
     "babel": "~5.8.23",
     "babel-runtime": "~5.8.20",
-    "react-videojs": "0.0.3",
+    "react-videojs": "git+https://github.com/robindemourat/react-videojs.git",
     "twemoji": "^1.4.1",
-    "twitter-text": "^1.13.2"
+    "twitter-text": "^1.13.2",
+    "video.js": "^6.4.0"
   }
 }
