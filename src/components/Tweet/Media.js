@@ -6,7 +6,7 @@ import Video from './Video'
 class Media extends React.Component {
   render () {
     const firstType = this.props.media && this.props.media.length && this.props.media[0].type;
-    switch (this.props.media[0].type) {
+    switch (firstType) {
       case 'photo':
         return <Photos {... this.props} />
       case 'video':
